@@ -53,6 +53,7 @@
     checksum: "sha256:{{ restic_checksum }}"
   delegate_to: localhost
   check_mode: false
+  changed_when: false
 
 - name: Decompress the binary
   become: false
@@ -61,6 +62,7 @@
     creates: "/tmp/restic_{{ restic_version }}_{{ go_arch }}"
   delegate_to: localhost
   check_mode: false
+  changed_when: false
 
 - name: Propagate restic binary
   copy:
