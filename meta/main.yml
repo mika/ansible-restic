@@ -1,24 +1,16 @@
 ---
 galaxy_info:
-  author: donat-b, Pawel Krupa (paulfantom)
+  author: donat-b, Pawel Krupa (paulfantom), Darshaka Pathirana
   description: Fast, secure, efficient backup program
+  company: SynPro Solutions GmbH
   license: MIT
-  min_ansible_version: 2.2
+  role_name: restic
+  namespace: synpro
+  min_ansible_version: 2.9.26
   platforms:
-  - name: Ubuntu
-    versions:
-    - bionic
-    - xenial
-  - name: EL
-    versions:
-    - 7
-  - name: Fedora
-    versions:
-    - 27
   - name: Debian
     versions:
-    - stretch
-    - jessie
+    - buster
   galaxy_tags:
     - system
     - backup
