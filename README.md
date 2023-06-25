@@ -2,14 +2,10 @@
 
 # Ansible Role: restic
 
-[![Build Status](https://travis-ci.org/paulfantom/ansible-restic.svg?branch=master)](https://travis-ci.org/paulfantom/ansible-restic)
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Ansible Role](https://img.shields.io/badge/ansible%20role-paulfantom.restic-blue.svg)](https://galaxy.ansible.com/paulfantom/restic/)
-[![GitHub tag](https://img.shields.io/github/tag/paulfantom/ansible-restic.svg)](https://github.com/paulfantom/ansible-restic/tags)
-
-## IMPORTANT - Project archived
-
-Project is archived due to my lack of interest in maintaining it (I am not using it anymore). I will happily unarchive it if anyone is interested in maintaining it. If you are such person, write me an email at paulfantom@gmail.com.
+![Lint Code Base](https://github.com/jkirk/ansible-restic/actions/workflows/linter.yml/badge.svg)
+![Ansible Molecule](https://github.com/jkirk/ansible-restic/actions/workflows/molecule.yml/badge.svg)
 
 ## Description
 
