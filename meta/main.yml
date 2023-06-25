@@ -5,12 +5,14 @@ galaxy_info:
   company: SynPro Solutions GmbH
   license: MIT
   role_name: restic
-  namespace: synpro
+  namespace: paulfantom
   min_ansible_version: 2.9.26
   platforms:
   - name: Debian
     versions:
     - buster
+    - bullseye
+    - bookworm
   galaxy_tags:
     - system
     - backup

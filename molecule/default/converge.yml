@@ -1,7 +1,6 @@
 ---
 - name: Converge
   hosts: all
-  tasks:
-    - name: "Include ansible-restic"
-      include_role:
-        name: "ansible-restic"
+  become: true
+  roles:
+    - role: paulfantom.restic

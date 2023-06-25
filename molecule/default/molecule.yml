@@ -1,17 +1,16 @@
 ---
 dependency:
   name: galaxy
-lint: |
-  set -e
-  yamllint tasks
 driver:
   name: docker
 platforms:
-  - name: debian_10
-    image: geerlingguy/docker-debian10-ansible
+  - name: instance
+    image: geerlingguy/docker-${MOLECULE_DISTRO:-debian12}-ansible:latest
     pre_build_image: true
-    container_default_behavior: no_defaults
 provisioner:
   name: ansible
 verifier:
   name: ansible
+lint: |
+  set -e
+  yamllint tasks
